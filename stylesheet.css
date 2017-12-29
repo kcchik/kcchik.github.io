@@ -4,31 +4,23 @@
 }
 
 body {
-  background-color: #F2F2F2;
-  text-align: center;
+  background-color: #f2f2f2;
+  margin: 0;
 }
 
-h2 {
+h1 {
   font-size: 50px;
 }
 
-a:link {
-  text-decoration: none;
-}
-
-a:hover {
-  font-weight: bold;
-}
-
-a:visited {
-  color: #2D3B46;
-  text-decoration: none;
-}
-
-.biocontainer {
-  text-align: center;
+.avenirbook {
   font-family: "Avenir Book", sans-serif;
-  color: #2D3B46;
+  color: #2d3b46;
+}
+
+.header {
+  margin-top: 100px;
+  margin-bottom: 120px;
+  text-align: center;
 }
 
 .circle {
@@ -37,6 +29,40 @@ a:visited {
   display: block;
 }
 
-.biolink {
+.headerlink {
   padding: 10px;
+}
+
+.headerlink:link {
+  color: #2d3b46;
+  text-decoration: none;
+}
+
+.headerlink:hover {
+  color: #339baf;
+  font-style: underline;
+}
+
+.headerlink:visited {
+  color: #2d3b46;
+  text-decoration: none;
+}
+
+.bio {
+  text-align: center;
+  padding: 0 500px 0 500px;
+}
+
+.biodesc {
+  font-size: 16px;
+  color: #999999;
+}
+
+.footer {
+  font-size: 12px;
+  color: #f2f2f2;
+  text-align: center;
+  background-color: #2d3b46;
+  margin-top: 120px;
+  padding: 20px 20px 20px 20px;
 }
