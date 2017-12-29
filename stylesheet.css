@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Avenir Book";
+  src: url("Avenir Book.otf");
+}
+
+body {
+  background-color: #F2F2F2;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:visited {
+  color: #2D3B46;
+  text-decoration: none;
+}
+
+.biocontainer {
+  text-align: center;
+  font-family: "Avenir Book", sans-serif;
+  color: #2D3B46;
+}
+
+.circle {
+  width: 30%;
+  margin: auto;
+  display: block;
+}
+
+.biolink {
+  padding: 10px;
+}
