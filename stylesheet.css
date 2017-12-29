@@ -17,6 +17,20 @@ h1 {
   color: #2d3b46;
 }
 
+.navlist {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navitem {
+  display: inline;
+  float: right;
+}
+
 .header {
   margin-top: 100px;
   margin-bottom: 120px;
@@ -38,14 +52,14 @@ h1 {
   text-decoration: none;
 }
 
-.headerlink:hover {
-  color: #339baf;
-  font-style: underline;
-}
-
 .headerlink:visited {
   color: #2d3b46;
   text-decoration: none;
+}
+
+.headerlink:hover {
+  color: #339baf;
+  font-style: underline;
 }
 
 .bio {
@@ -56,6 +70,7 @@ h1 {
 .biodesc {
   font-size: 16px;
   color: #999999;
+  margin-bottom: 120px;
 }
 
 .footer {
@@ -63,6 +78,5 @@ h1 {
   color: #f2f2f2;
   text-align: center;
   background-color: #2d3b46;
-  margin-top: 120px;
   padding: 20px 20px 20px 20px;
 }
