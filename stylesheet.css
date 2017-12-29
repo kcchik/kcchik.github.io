@@ -64,7 +64,8 @@ h1 {
 
 .bio {
   text-align: center;
-  padding: 0 500px 0 500px;
+  margin: auto;
+  width: 50%;
 }
 
 .biodesc {
@@ -75,6 +76,7 @@ h1 {
 
 .footer {
   font-size: 12px;
+  width: 100%;
   color: #f2f2f2;
   text-align: center;
   background-color: #2d3b46;
