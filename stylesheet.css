@@ -12,16 +12,6 @@ h1 {
   font-size: 50px;
 }
 
-<<<<<<< HEAD
-a:link {
-  color: #2D3B46;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #01C0DA;
-  text-decoration: underline;
-=======
 .avenirbook {
   font-family: "Avenir Book", sans-serif;
   color: #2d3b46;
@@ -34,7 +24,6 @@ a:hover {
   width: 100%;
   margin: 0;
   padding: 0;
->>>>>>> 55a2360be5577bd69e2f7ab0ef4448658843e810
 }
 
 .navitem {
