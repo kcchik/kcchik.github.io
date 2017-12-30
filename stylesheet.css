@@ -13,11 +13,13 @@ h2 {
 }
 
 a:link {
+  color: #2D3B46;
   text-decoration: none;
 }
 
 a:hover {
-  font-weight: bold;
+  color: #01C0DA;
+  text-decoration: underline;
 }
 
 a:visited {
