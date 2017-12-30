@@ -4,14 +4,15 @@
 }
 
 body {
-  background-color: #F2F2F2;
-  text-align: center;
+  background-color: #f2f2f2;
+  margin: 0;
 }
 
-h2 {
+h1 {
   font-size: 50px;
 }
 
+<<<<<<< HEAD
 a:link {
   color: #2D3B46;
   text-decoration: none;
@@ -20,17 +21,31 @@ a:link {
 a:hover {
   color: #01C0DA;
   text-decoration: underline;
-}
-
-a:visited {
-  color: #2D3B46;
-  text-decoration: none;
-}
-
-.biocontainer {
-  text-align: center;
+=======
+.avenirbook {
   font-family: "Avenir Book", sans-serif;
-  color: #2D3B46;
+  color: #2d3b46;
+}
+
+.navlist {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+>>>>>>> 55a2360be5577bd69e2f7ab0ef4448658843e810
+}
+
+.navitem {
+  display: inline;
+  float: right;
+}
+
+.header {
+  margin-top: 100px;
+  margin-bottom: 120px;
+  text-align: center;
 }
 
 .circle {
@@ -39,6 +54,42 @@ a:visited {
   display: block;
 }
 
-.biolink {
+.headerlink {
   padding: 10px;
+}
+
+.headerlink:link {
+  color: #2d3b46;
+  text-decoration: none;
+}
+
+.headerlink:visited {
+  color: #2d3b46;
+  text-decoration: none;
+}
+
+.headerlink:hover {
+  color: #339baf;
+  font-style: underline;
+}
+
+.bio {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.biodesc {
+  font-size: 16px;
+  color: #999999;
+  margin-bottom: 120px;
+}
+
+.footer {
+  font-size: 12px;
+  width: 100%;
+  color: #f2f2f2;
+  text-align: center;
+  background-color: #2d3b46;
+  padding: 20px 20px 20px 20px;
 }
