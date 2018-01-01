@@ -32,15 +32,21 @@ h1 {
 }
 
 .header {
-  margin-top: 100px;
-  margin-bottom: 120px;
+  margin-top: 60px;
+  margin-bottom: 80px;
   text-align: center;
 }
 
 .circle {
-  width: 30%;
+  width: 400px;
   margin: auto;
   display: block;
+  position: relative;
+}
+
+.name {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .headerlink {
@@ -48,12 +54,12 @@ h1 {
 }
 
 .headerlink:link {
-  color: #2d3b46;
+  color: #999999;
   text-decoration: none;
 }
 
 .headerlink:visited {
-  color: #2d3b46;
+  color: #999999;
   text-decoration: none;
 }
 
@@ -64,21 +70,48 @@ h1 {
 
 .bio {
   text-align: center;
-  margin: auto;
-  width: 50%;
 }
 
 .biodesc {
-  font-size: 16px;
   color: #999999;
-  margin-bottom: 120px;
+  width: 50%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+
+.work {
+  width: 300px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.logobox {
+  height: 150px;
+}
+
+.mmc {
+  height: 90px;
+  margin: 30px 0 0 0;
+}
+
+.starhop {
+  width: 100px;
+  margin: auto;
+}
+
+.workdesc {
+  color: #999999;
+  width: 200px;
+  margin: 10px 50px 10px 50px;
 }
 
 .footer {
   font-size: 12px;
   width: 100%;
+  margin: 50px 0 0 0;
   color: #f2f2f2;
   text-align: center;
   background-color: #2d3b46;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 0 20px 0;
 }

@@ -1,3 +1,4 @@
-function clickResume() {
-  document.getElementById("resume").innerHTML = "hehe";
-}
+$(document).ready(function() {
+  $(".header").fadeOut(0);
+  $(".header").fadeIn(3000);
+});
