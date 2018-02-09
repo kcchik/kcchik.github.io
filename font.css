@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Lubalin";
-  src: url("../fonts/MerriweatherLt.ttf");
+  src: url("fonts/MerriweatherLt.ttf");
 }
 
 @font-face {
   font-family: "Avenir";
-  src: url("../fonts/Avenir.ttf");
+  src: url("fonts/Avenir.ttf");
 }
 
 .lubalin {
