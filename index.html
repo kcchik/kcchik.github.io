@@ -1,52 +1,76 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kevin Chik</title>
-  <link rel="icon" href="icon.jpeg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/logoDk.png">
+  <!-- <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <script src="jquery-3.2.1.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- <script src="bootstrap.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="font.css">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-  <script src="jquery-3.2.1.min.js"></script>
-  <script src="bootstrap.min.js"></script>
-  <script src="scrollreveal.min.js"></script>
   <script src="script.js"></script>
 </head>
+
 <body>
-  <ul class="navlist avenirbook">
-    <li class="navitem"><a class="headerlink" href="#bio">about</a></li>
-  </ul>
-  <div class="header tags avenirbook">
-    <img class="circle" src="circle.png" alt="kevin!!">
-    <h1 class="name">kevin chik</h2>
-    <a class="headerlink" href="https://github.com/kcchik">github</a>
-    <a class="headerlink" href="https://www.linkedin.com/in/kcchik">linkedin</a>
-    <a class="headerlink" href="resume.pdf">resume</a>
+
+  <!-- header -->
+  <div class="header">
+    <img src="images/me.jpeg" class="img-circle" alt="kevin" width="400px" height="400px">
+    <h1 class="name avenir">kevin chik</h1>
+    <a class="headerlink lubalin" href="https://github.com/kcchik" target="_blank">github</a>
+    <a class="headerlink lubalin" href="https://www.linkedin.com/in/kcchik" target="_blank">linkedin</a>
+    <a class="headerlink lubalin" href="images/resume.pdf" target="_blank">resume</a>
   </div>
-  <div class="bio avenirbook" id="bio">
-    <div class="tags">
-      <h2 class="biohead">about</h2>
-      <p class="biodesc">Hi! I'm a first year student studying Computer Engineering at the University of Waterloo. I like coding things and playing piano :)</p>
-    </div>
-    <div class="tags">
-      <h2 class="biohead">work</h2>
-      <div class="work">
-        <div class="logobox"><img class="mmc" src="mmc.png" alt="mmc logo"></div>
-        <h3 class="workdesc">Marsh & McLennan</h3>
-        <p class="workdesc">Software developer</p>
+
+  <!-- bio -->
+  <div class="bio" id="bio">
+    <h2 class="biohead avenir">about</h2>
+    <p class="biodesc lubalin">text</p>
+    <h2 class="biohead avenir">work</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="work">
+            <a class="headerlink" href="starhop.html">
+              <div class="logobox"><img class="logo" src="images/mmc.png" alt="mmc-logo"></div>
+              <p class="worktitle avenir">marsh & mclennan</p>
+              <p class="workdesc lubalin">text</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work">
+            <a class="headerlink" href="starhop.html">
+              <div class="logobox"><img class="logo" src="images/guy.png" alt="starhop-logo"></div>
+              <p class="worktitle avenir">starhop</p>
+              <p class="workdesc lubalin">text</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work">
+            <a class="headerlink" href="starhop.html">
+              <div class="logobox"><img class="logo" src="images/limelight.png" alt="limelight-logo"></div>
+              <p class="worktitle avenir">limelight</p>
+              <p class="workdesc lubalin">text</p>
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="work">
-        <div class="logobox"><img class="starhop" src="starhop.png" alt="starhop logo"></div>
-        <h3 class="workdesc">StarHop</h3>
-        <p class="workdesc">Mobile game</p>
-      </div>
     </div>
   </div>
-  <div class="footer avenirbook">
-    <p class="footerdesc">Built by Kevin Chik.</p>
+
+  <!-- footer -->
+  <div class="footer avenir">
+    <p class="footerdesc">( ͡° ͜ʖ ͡°)</p>
   </div>
-  <script>
-		sr.reveal('.tags', { origin: 'bottom', distance: '20px', duration: 2000, })
-	</script>
+
 </body>
+
 </html>

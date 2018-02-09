@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Lubalin";
+  src: url("Fonts/MerriweatherLt.ttf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("Fonts/Avenir.ttf");
+}
+
+.lubalin {
+  font-family: "Lubalin", serif;
+  color: #2d3b46;
+  letter-spacing: 0.5px;
+}
+
+.avenir {
+  font-family: "Avenir", serif;
+  color: #2d3b46;
+  letter-spacing: 0.5px;
+}

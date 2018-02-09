@@ -1,34 +1,10 @@
-@font-face {
-  font-family: "Avenir Book";
-  src: url("Avenir Book.otf");
-}
-
 body {
   background-color: #f2f2f2;
   margin: 0;
 }
 
-h1 {
-  font-size: 50px;
-}
-
-.avenirbook {
-  font-family: "Avenir Book", sans-serif;
-  color: #2d3b46;
-}
-
-.navlist {
-  position: fixed;
-  top: 10px;
-  right: 20px;
-  width: 100%;
-  margin: 0;
+.container-fluid {
   padding: 0;
-}
-
-.navitem {
-  display: inline;
-  float: right;
 }
 
 .header {
@@ -38,7 +14,7 @@ h1 {
 }
 
 .circle {
-  width: 30%;
+  width: 400px;
   margin: auto;
   display: block;
   position: relative;
@@ -47,25 +23,21 @@ h1 {
 .name {
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 50px;
 }
 
 .headerlink {
   padding: 10px;
+  font-size: 16px;
 }
 
-.headerlink:link {
-  color: #999999;
-  text-decoration: none;
-}
-
-.headerlink:visited {
+.headerlink:link, .headerlink:visited {
   color: #999999;
   text-decoration: none;
 }
 
 .headerlink:hover {
   color: #339baf;
-  font-style: underline;
 }
 
 .bio {
@@ -78,6 +50,7 @@ h1 {
   margin: auto;
   margin-top: 25px;
   margin-bottom: 80px;
+  font-size: 16px;
 }
 
 .work {
@@ -90,20 +63,23 @@ h1 {
   height: 150px;
 }
 
-.mmc {
-  height: 90px;
-  margin: 30px 0 0 0;
+.logo {
+  height: 100px;
+  margin: 40px 0 0 0;
 }
 
-.starhop {
-  width: 100px;
-  margin: auto;
+.worktitle {
+  color: #2d3b46;
+  width: 200px;
+  margin: 10px 50px 10px 50px;
+  font-size: 20px;
 }
 
 .workdesc {
   color: #999999;
   width: 200px;
   margin: 10px 50px 10px 50px;
+  font-size: 14px;
 }
 
 .footer {
@@ -113,5 +89,5 @@ h1 {
   color: #f2f2f2;
   text-align: center;
   background-color: #2d3b46;
-  padding: 35px 0 20px 0;
+  padding: 35px 0 10px 0;
 }
