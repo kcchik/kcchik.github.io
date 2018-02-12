@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Lubalin";
+  font-family: "Merriweather";
   src: url("fonts/MerriweatherLt.ttf");
 }
 
@@ -8,8 +8,8 @@
   src: url("fonts/Avenir.ttf");
 }
 
-.lubalin {
-  font-family: "Lubalin", serif;
+.merriweather {
+  font-family: "Merriweather", serif;
   color: #2d3b46;
   letter-spacing: 0.5px;
 }

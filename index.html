@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- author: Kevin Chik -->
+<!-- personal website -->
+
 <head>
   <title>Kevin Chik</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="images/logoDk.gif">
-  <!-- <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <!-- <script src="jquery-3.2.1.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!-- <script src="bootstrap.min.js"></script> -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="font.css">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -21,44 +21,49 @@
 
   <!-- header -->
   <div class="header">
-    <img src="images/me.jpeg" class="img-circle" alt="kevin" width="400px" height="400px">
+    <img class="img-circle circle" src="images/me.jpeg" alt="kevin">
     <h1 class="name avenir">kevin chik</h1>
-    <a class="headerlink lubalin" href="https://github.com/kcchik" target="_blank">github</a>
-    <a class="headerlink lubalin" href="https://www.linkedin.com/in/kcchik" target="_blank">linkedin</a>
-    <a class="headerlink lubalin" href="images/resume.pdf" target="_blank">resume</a>
+      <a class="headerlink merriweather" href="images/resume.pdf" target="_blank">resume</a>
+      <a class="headerlink merriweather" href="https://github.com/kcchik" target="_blank">github</a>
+      <a class="headerlink merriweather" href="https://www.linkedin.com/in/kcchik" target="_blank">linkedin</a>
+    </div>
   </div>
 
   <!-- bio -->
-  <div class="bio" id="bio">
-    <h2 class="biohead avenir">about</h2>
-    <p class="biodesc lubalin">text</p>
-    <h2 class="biohead avenir">work</h2>
+  <div class="bio">
+    <!-- about -->
+    <h2 class="avenir">about</h2>
+    <p class="biodesc merriweather">text</p>
+    <!-- work -->
+    <!-- change col-md-* according to number of items in work,must add up to 12 -->
+    <h2 class="avenir">work</h2>
     <div class="container">
       <div class="row">
+        <!-- mmc -->
         <div class="col-md-4">
-          <div class="work">
-            <a class="headerlink" href="starhop.html">
-              <div class="logobox"><img class="logo" src="images/mmc.png" alt="mmc-logo"></div>
-              <p class="worktitle avenir">marsh & mclennan</p>
-              <p class="workdesc lubalin">text</p>
-            </a>
-          </div>
+          <a class="headerlink" href="mmc.html">
+            <div class="logobox"><img class="logo" src="images/mmc.png" alt="mmc-logo"></div>
+            <p class="worktitle avenir">marsh & mclennan</p>
+            <p class="workdesc merriweather">text</p>
+          </a>
         </div>
+        <!-- jump guy -->
         <div class="col-md-4">
           <div class="work">
-            <a class="headerlink" href="starhop.html">
+            <a class="headerlink" href="jumpguy.html">
               <div class="logobox"><img class="logo" src="images/guy.png" alt="jumpguy-logo"></div>
               <p class="worktitle avenir">jump guy</p>
-              <p class="workdesc lubalin">text</p>
+              <p class="workdesc merriweather">text</p>
             </a>
           </div>
         </div>
+        <!-- limelight -->
         <div class="col-md-4">
           <div class="work">
-            <a class="headerlink" href="starhop.html">
-              <div class="logobox"><img class="logo" src="images/limelight.png" alt="limelight-logo"></div>
+            <a class="headerlink" href="limelight.html">
+              <div class="logobox"><img class="logo" src="images/lime.png" alt="limelight-logo"></div>
               <p class="worktitle avenir">limelight</p>
-              <p class="workdesc lubalin">text</p>
+              <p class="workdesc merriweather">text</p>
             </a>
           </div>
         </div>
@@ -68,7 +73,7 @@
 
   <!-- footer -->
   <div class="footer avenir">
-    <p class="footerdesc">( ͡° ͜ʖ ͡°)</p>
+    <p>( ͡° ͜ʖ ͡°)</p>
   </div>
 
 </body>
