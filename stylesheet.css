@@ -4,50 +4,53 @@ body {
 }
 
 .header {
-  padding: 10vh 0 0 0;
-  height: 100vh;
-  text-align: center;
-  display: none;
+  background-attachment: fixed;
+  background-image: url("images/kevin_chik_bg.jpg");
+  background-size: cover;
+  height: 70vh;
 }
 
-.headerd {
-  padding: 10vh 0 0 0;
-  height: 100vh;
-  text-align: center;
-}
-
-.circle {
-  width: 30%;
+.header-content {
+  position: fixed;
+  margin: 10vh 0 0 10vh;
 }
 
 .name {
-  padding: 10px 0 0 0;
-  font-size: 9vh;
+  color: #f2f2f2;
+  font-size: 16vh;
+  /* opacity: 0; */
 }
 
-.headerlink {
-  padding: 0 10px 0 10px;
+.header-link, .work-link{
+  padding: 0 13px 0 7px;
   font-size: 3vh;
+  opacity: 0;
 }
 
-.headerlink:link, .headerlink:visited {
-  color: #999999;
+.header-link:link, .header-link:visited, .work-link:link, .work-link:visited {
+  color: #f2f2f2;
   text-decoration: none;
 }
 
-.headerlink:hover {
-  color: #339baf;
+.header-link:hover, .work-link:hover{
+  color: #2d3b46;
 }
 
-.bio {
-  padding: 60px 0 60px 0;
+.about {
+  padding: 40px 0 60px 0;
   text-align: center;
 }
 
-.biodesc {
+.description {
   color: #999999;
-  padding: 25px 0 80px 0;
+  padding: 25px 0 0 0;
   font-size: 16px;
+}
+
+.work {
+  background-color: #dddddd;
+  padding: 40px 0 40px 0;
+  text-align: center;
 }
 
 .logobox {
@@ -76,5 +79,6 @@ body {
   padding: 35px 0 10px 0;
   width: 100%;
   text-align: center;
+  vertical-align: bottom;
   font-size: 12px;
 }
