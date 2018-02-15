@@ -7,16 +7,16 @@ $(function() {
     else
       $(".name").show();
     if (scroll > 233)
-      $(".headerlink").hide();
+      $(".header-link").hide();
     else
-      $(".headerlink").show();
+      $(".header-link").show();
   });
 
   $(".name").animate({
     opacity: 1,
   }, 1500);
 
-  $(".headerlink").animate({
+  $(".header-link").animate({
     opacity: 1,
   }, 1500);
 

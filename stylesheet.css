@@ -18,7 +18,7 @@ body {
 .name {
   color: #f2f2f2;
   font-size: 16vh;
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 .header-link, .work-link{
