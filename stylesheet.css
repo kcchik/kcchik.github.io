@@ -5,6 +5,7 @@ body {
 
 .header {
   background-attachment: fixed;
+  background-position: top center;
   background-image: url("images/kevin_chik_bg.jpg");
   background-size: cover;
   height: 70vh;
