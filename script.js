@@ -1,17 +1,5 @@
 $(function() {
 
-  $(window).scroll(function(){
-    var scroll = $(window).scrollTop();
-    if (scroll > 350)
-      $(".name").hide();
-    else
-      $(".name").show();
-    if (scroll > 233)
-      $(".header-link").hide();
-    else
-      $(".header-link").show();
-  });
-
   $(".name").animate({
     opacity: 1,
   }, 1500);
