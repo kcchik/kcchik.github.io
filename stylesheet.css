@@ -21,13 +21,13 @@ body {
   opacity: 0;
 }
 
-.header-link, .work-link{
+.header-link{
   padding: 0 13px 0 7px;
   font-size: 3vh;
   opacity: 0;
 }
 
-.header-link:link, .header-link:visited, .work-link:link, .work-link:visited {
+.header-link:link, .header-link:visited {
   color: #f2f2f2;
   text-decoration: none;
 }
@@ -47,30 +47,30 @@ body {
   font-size: 16px;
 }
 
-.work {
-  background-color: #dddddd;
-  padding: 40px 0 40px 0;
-  text-align: center;
+.work-0, .work-1, .work-2 {
+  background-color: #f2f2f2;
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 0 10px;
 }
 
-.logobox {
-  height: 150px;
+.work-logo {
+  width: 300px;
+  margin: auto;
 }
 
-.logo {
-  height: 100px;
-  margin: 40px 0 0 0;
-}
-
-.worktitle {
-  color: #2d3b46;
-  padding: 20px 0 0 0;
-  font-size: 20px;
-}
-
-.workdesc {
+.work-description {
+  opacity: 0;
+  display: none;
   color: #999999;
   font-size: 16px;
+}
+
+.link:hover, .link:visited {
+  text-decoration: none;
 }
 
 .footer {
