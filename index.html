@@ -9,11 +9,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="images/kevin_chik_logo.gif">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:300,400" rel="stylesheet">
+  <link href="font.css"rel="stylesheet" type="text/css">
+  <link href="stylesheet.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="font.css">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <script src="script.js"></script>
 </head>
 
@@ -21,53 +22,61 @@
 
   <!-- header -->
   <div class="header">
-    <div class="header-content">
-      <h1 class="name avenir">kevin chik</h1>
-      <a class="header-link merriweather" href="images/kevin_chik_resume.pdf" target="_blank">resume</a>
-      <a class="header-link merriweather" href="https://github.com/kcchik" target="_blank">github</a>
-      <a class="header-link merriweather" href="https://www.linkedin.com/in/kcchik" target="_blank">linkedin</a>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="header-name">kevin chik</p>
+          <p class="header-bio">software developer</p>
+          <a class="header-link" href="images/resume.pdf">resume</a>
+          <a class="header-link" href="https://github.com/kcchik">github</a>
+          <a class="header-link" href="mailto:kevin.c.chik@gmail.com?subject=Hello!">kevin.c.chik@gmail.com</a>
+        </div>
+        <div class="col-md-6">
+          <img class="header-image" src="images/kevin_chik.jpg">
+        </div>
+      </div>
     </div>
-  </div>
-
-  <!-- about -->
-  <div class="about">
-    <h2 class="avenir">about</h2>
-    <p class="description merriweather">
-      hi! i like to make games<br>
-      hi! i like to make games<br>
-      hi! i like to make games<br>
-      hi! i like to make games<br>
-      hi! i like to make games<br>
-    </p>
   </div>
 
   <!-- work -->
   <div class="work">
-    <h2 class="avenir">work</h2>
+    <p class="work-title">work</p>
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <a class="link" href="mmc.html">
-            <div class="work-box">
-              <img class="work-logo" src="images/mmc_logo.png" alt="mmc-logo"/>
+          <a class="work-link" href="mmc.html">
+            <div class="work-entry">
+              <img class="work-entry-logo" src="images/mmc_logo.png" alt="mmc-logo"/>
+              <div class="work-entry-box">
+                <p class="work-entry-title">Marsh & McLennan</p>
+                <p class="work-entry-description">Software Developer</p>
+              </div>
             </div>
-            <div class="work-overlay"></div>
+            <div class="work-hover"></div>
           </a>
         </div>
         <div class="col-md-4">
-          <a class="link" href="limelight.html">
-            <div class="work-box">
-              <img class="work-logo" src="images/limelight_logo.png" alt="limelight-logo"/>
+          <a class="work-link" href="limelight.html">
+            <div class="work-entry">
+              <img class="work-entry-logo" src="images/limelight_logo.png" alt="limelight-logo"/>
+              <div class="work-entry-box">
+                <p class="work-entry-title">Limelight</p>
+                <p class="work-entry-description">Lets Go Lets Do</p>
+              </div>
             </div>
-            <div class="work-overlay"></div>
+            <div class="work-hover"></div>
           </a>
         </div>
         <div class="col-md-4">
-          <a class="link" href="jumpguy.html">
-            <div class="work-box">
-              <img class="work-logo" src="images/jump_guy_logo.png" alt="jump-guy-logo"/>
+          <a class="work-link" href="jumpguy.html">
+            <div class="work-entry">
+              <img class="work-entry-logo" src="images/jump_guy_logo.png" alt="jump-guy-logo"/>
+              <div class="work-entry-box">
+                <p class="work-entry-title">Jump Guy</p>
+                <p class="work-entry-description">Jump If Ur Guy</p>
+              </div>
             </div>
-            <div class="work-overlay"></div>
+            <div class="work-hover"></div>
           </a>
         </div>
       </div>
@@ -75,8 +84,8 @@
   </div>
 
   <!-- footer -->
-  <div class="footer avenir">
-    <p>( ͡° ͜ʖ ͡°)</p>
+  <div class="footer">
+    <p>made by kevin chik in 2018.</p>
   </div>
 
 </body>

@@ -1,85 +1,119 @@
-body {
-  background-color: #f2f2f2;
-  margin: 0;
-}
-
 .header {
-  background-attachment: fixed;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-image: url("images/kevin_chik_bg.jpg");
-  background-size: cover;
-  height: 70vh;
+  height: 625px;
+  padding: 20vh 0 0 20vh;
 }
 
-.header-content {
-  padding: 20vh 0 0 10vh;
+.header-name {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 64px;
 }
 
-.name {
-  color: #f2f2f2;
-  font-size: 16vh;
-  opacity: 0;
+.header-bio {
+  margin: 10px 0 20px 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #737373;
 }
 
-.header-link{
-  padding: 0 13px 0 7px;
-  font-size: 3vh;
-  opacity: 0;
+.header-link {
+  margin: 0 10px 0 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #509cc0;
 }
 
-.header-link:link, .header-link:visited {
-  color: #f2f2f2;
+.header-link:link {
   text-decoration: none;
 }
 
-.header-link:hover, .work-link:hover{
-  color: #515151;
+.header-link:visited {
+  color: #509cc0;
 }
 
-.about {
-  padding: 40px 0 60px 0;
-  text-align: center;
+.header-link:hover {
+  border-bottom: 1px solid;
+  color: #66ccff;
 }
 
-.description {
-  color: #999999;
-  padding: 25px 0 0 0;
-  font-size: 16px;
+.header-image {
+  width: 350px;
+  opacity: 0;
+  box-shadow: 5px 5px 10px #dbdbdb;
+}
+
+@media (max-width: 1000px) {
+  .header-image {
+    display: none;
+  }
 }
 
 .work {
-  text-align: center;
   padding: 0 0 60px 0;
+  text-align: center;
 }
 
-.work-box {
-  background-color: #e2e2e2;
-  border-radius: 10px;
-  height: 250px;
+.work-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.work-entry {
   margin: 25px 0 15px 0;
+  height: 325px;
+  background-color: #efefef;
+  box-shadow: 5px 5px 10px #dbdbdb;
 }
 
-.work-logo {
-  height: 250px;
-  display: block;
+.work-entry-logo {
   margin: auto;
+  display: block;
+  height: 250px;
 }
 
-.work-overlay {
-  height: 250px;
-  opacity: 0;
+.work-entry-box {
+  padding: 12px 0 0 15px;
+  height: 75px;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.work-entry-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+.work-entry-description {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #737373;
+}
+
+.work-link:link, .work-link:visited, .work-link:hover {
+  text-decoration: none;
+}
+
+.work-hover {
+  margin: -340px 0 0 0;
+  height: 325px;
   background-color: #000000;
-  border-radius: 10px;
-  margin: -265px 0 0 0;
+  opacity: 0;
 }
 
 .footer {
-  background-color: #3d3d3d;
-  color: #f2f2f2;
-  padding: 35px 0 10px 0;
+  padding: 30px 0 20px 0;
   width: 100%;
+  background-color: #efefef;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
   text-align: center;
-  vertical-align: bottom;
-  font-size: 12px;
+  color: #3d3d3d;
 }

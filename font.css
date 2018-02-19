@@ -1,21 +1,98 @@
 @font-face {
+  font-family: "AcreLight";
+  src: url("fonts/AcreLight.ttf");
+}
+
+@font-face {
+  font-family: "GothamLight";
+  src: url("fonts/GothamLight.ttf");
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("fonts/GothamMedium.ttf");
+}
+
+@font-face {
+  font-family: "GothamBlack";
+  src: url("fonts/GothamBlack.ttf");
+}
+
+@font-face {
+  font-family: "GothamRoundedLight";
+  src: url("fonts/GothamRoundedLight.otf");
+}
+
+@font-face {
+  font-family: "GothamRoundedMedium";
+  src: url("fonts/GothamRoundedMedium.otf");
+}
+
+@font-face {
+  font-family: "GothamRoundedBook";
+  src: url("fonts/GothamRoundedBook.otf");
+}
+
+@font-face {
+  font-family: "GothamRoundedBold";
+  src: url("fonts/GothamRoundedBold.ttf");
+}
+
+@font-face {
   font-family: "Merriweather";
   src: url("fonts/MerriweatherLt.ttf");
 }
 
-@font-face {
-  font-family: "Avenir";
-  src: url("fonts/Avenir.ttf");
-}
-
-.merriweather {
-  font-family: "Merriweather", serif;
+.acre-light {
+  font-family: "AcreLight", sans-serif;
   color: #3d3d3d;
   letter-spacing: 0.5px;
 }
 
-.avenir {
-  font-family: "Avenir", serif;
+.gotham-light {
+  font-family: "GothamLight", sans-serif;
+  color: #3d3d3d;
+  letter-spacing: 0.5px;
+}
+
+.gotham-medium {
+  font-family: "GothamMedium", sans-serif;
+  color: #3d3d3d;
+  letter-spacing: 0.5px;
+}
+
+.gotham-black {
+  font-family: "GothamBlack", sans-serif;
+  color: #3d3d3d;
+  letter-spacing: 0.5px;
+}
+
+.gotham-rounded-light {
+  font-family: "GothamRoundedLight", sans-serif;
+  color: #3d3d3d;
+  letter-spacing: 0.5px;
+}
+
+.gotham-rounded-medium {
+  font-family: "GothamRoundedMedium", sans-serif;
+  color: #3d3d3d;
+  letter-spacing: 0.5px;
+}
+
+.gotham-rounded-book {
+  font-family: "GothamRoundedBook", sans-serif;
+  color: #3d3d3d;
+  letter-spacing: 0.5px;
+}
+
+.gotham-rounded-bold {
+  font-family: "GothamRoundedBold", sans-serif;
+  color: #3d3d3d;
+  letter-spacing: 0.5px;
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
   color: #3d3d3d;
   letter-spacing: 0.5px;
 }
