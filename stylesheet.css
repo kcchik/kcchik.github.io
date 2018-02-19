@@ -34,7 +34,7 @@ body {
 }
 
 .header-link:hover, .work-link:hover{
-  color: #2d3b46;
+  color: #515151;
 }
 
 .about {
@@ -75,7 +75,7 @@ body {
 }
 
 .footer {
-  background-color: #2d3b46;
+  background-color: #3d3d3d;
   color: #f2f2f2;
   padding: 35px 0 10px 0;
   width: 100%;
