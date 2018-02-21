@@ -1,6 +1,6 @@
 $(function() {
 
-  $(".header-image").animate({
+  $(".header").animate({
     opacity: 1
   }, 1500);
 
