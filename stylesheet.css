@@ -1,6 +1,12 @@
+.content {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .header {
   height: 800px;
-  padding: 20vh 20vh 0 20vh;
+  padding: 200px 0 0 10px;
   opacity: 0;
 }
 
@@ -8,7 +14,7 @@
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 65px;
 }
 
 .header-bio {
@@ -38,26 +44,6 @@
 .header-link:hover {
   border-bottom: 1px solid;
   color: #66ccff;
-}
-
-@media (max-aspect-ratio: 1/1) {
-
-  .header {
-    padding: 30vh 0 0 5px;
-  }
-
-  .header-name {
-    font-size: 64px;
-  }
-
-  .header-bio {
-    font-size: 16px;
-  }
-
-  .header-link {
-    font-size: 16px;
-  }
-
 }
 
 .work {
