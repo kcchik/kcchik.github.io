@@ -1,0 +1,93 @@
+:root {
+ --color-primary: #509cc0;
+ --color-primary-light: #66ccff;
+ --color-light-gray: #efefef;
+ --color-gray: #737373;
+ --color-dark-gray: #3d3d3d;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 50px 0 50px;
+}
+
+.header {
+  height: 100vh;
+  padding: 200px 0 0 0;
+  opacity: 0;
+}
+
+.header-name {
+  margin: 0;
+  font-size: 65px;
+}
+
+.header-desc {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  color: var(--color-gray);
+}
+
+.header-link {
+  margin: 0 10px 0 0;
+  font-size: 18px;
+  color: var(--color-primary);
+}
+
+.header-link:link {
+  text-decoration: none;
+}
+
+.header-link:visited {
+  color: var(--color-primary);
+}
+
+.header-link:hover {
+  border-bottom: 1px solid;
+  color: var(--color-primary-light);
+}
+
+.bio-desc {
+  font-size: 36px;
+}
+
+.work {
+  padding: 0 0 60px 0;
+}
+
+.work-entry {
+  margin: 200px 0 50px 0;
+}
+
+.work-title {
+  font-size: 36px;
+}
+
+.work-desc {
+  font-size: 18px;
+  color: var(--color-gray);
+}
+
+.work-img {
+  width: 100%;
+}
+
+.footer {
+  padding: 30px 0 20px 0;
+  width: 100%;
+  background-color: var(--color-light-gray);
+  font-size: 14px;
+  text-align: center;
+  color: var(--color-dark-gray);
+}
