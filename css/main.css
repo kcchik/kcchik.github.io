@@ -1,6 +1,11 @@
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
 :root {
- --color-primary: #509cc0;
- --color-primary-light: #66ccff;
+ --color-blue: #509cc0;
+ --color-light-blue: #66ccff;
  --color-light-gray: #efefef;
  --color-gray: #737373;
  --color-dark-gray: #3d3d3d;
@@ -42,7 +47,7 @@
 .header-link {
   margin: 0 10px 0 0;
   font-size: 18px;
-  color: var(--color-primary);
+  color: var(--color-blue);
 }
 
 .header-link:link {
@@ -50,12 +55,12 @@
 }
 
 .header-link:visited {
-  color: var(--color-primary);
+  color: var(--color-blue);
 }
 
 .header-link:hover {
   border-bottom: 1px solid;
-  color: var(--color-primary-light);
+  color: var(--color-light-blue);
 }
 
 .bio-desc {
@@ -83,6 +88,25 @@
   width: 100%;
   box-shadow: 0 0 20px var(--color-light-gray);
   box-shadow: 0 4px 8px 0 var(--color-light-gray), 0 6px 20px 0 var(--color-light-gray);
+}
+
+.extra {
+  padding: 0 0 80px 100px;
+}
+
+.extra-entry {
+  padding: 40px 0 80px 0;
+}
+
+.extra-img {
+  height: 75px;
+  float: left;
+}
+
+.extra-title {
+  float: left;
+  padding: 0 0 0 30px;
+  font-size: 18px;
 }
 
 .footer {
