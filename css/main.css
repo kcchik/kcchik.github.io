@@ -81,6 +81,8 @@
 
 .work-img {
   width: 100%;
+  box-shadow: 0 0 20px var(--color-light-gray);
+  box-shadow: 0 4px 8px 0 var(--color-light-gray), 0 6px 20px 0 var(--color-light-gray);
 }
 
 .footer {
