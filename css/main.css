@@ -19,11 +19,23 @@ body, html {
 .lato {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  word-spacing: 2px;
 }
 
 .comfortaa {
   font-family: 'Comfortaa', serif;
   font-weight: 400;
+}
+
+.popup {
+  position: fixed;
+  bottom: -250px;
+  right: 150px;
+}
+
+.wee {
+  height: 250px;
+  /* visibility: hidden; */
 }
 
 .content {
