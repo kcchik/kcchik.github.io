@@ -29,13 +29,12 @@ body, html {
 
 .popup {
   position: fixed;
-  bottom: -250px;
+  bottom: -200px;
   right: 150px;
 }
 
 .wee {
-  height: 250px;
-  /* visibility: hidden; */
+  height: 200px;
 }
 
 .content {

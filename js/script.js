@@ -12,7 +12,7 @@ $(function() {
     },
     mouseleave: function() {
       $(".popup").animate({
-        bottom: "-250px"
+        bottom: "-200px"
       }, 150);
     }
   });
