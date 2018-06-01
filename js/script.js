@@ -1,4 +1,8 @@
 $(function() {
+
+  $(".header").animate({
+    marginLeft: '+=1000px'
+  }, 800);
   
   $(".bio").animate({
     marginTop: '-=400px'
