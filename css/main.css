@@ -11,11 +11,6 @@ body, html {
  --color-dark-gray: #3d3d3d;
 }
 
-.montserrat {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-}
-
 .lato {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -43,8 +38,13 @@ body, html {
   padding: 0 50px 0 50px;
 }
 
+.back-img {
+  height: 50px;
+  padding: 10px 0 0 10px;
+}
+
 .header {
-  height: 100vh;
+  height: 600px;
   padding: 200px 0 0 0;
   opacity: 0;
 }
@@ -71,6 +71,10 @@ body, html {
 .header-link:hover {
   border-bottom: 1px solid;
   color: var(--color-light-blue);
+}
+
+.bio {
+  margin: 400px 0 0 0;
 }
 
 .bio-desc {
@@ -104,29 +108,16 @@ body, html {
   border-radius: 25px;
 }
 
-.extra {
-  padding: 0 0 80px 100px;
-}
-
-.extra-entry {
-  padding: 40px 0 80px 0;
-}
-
-.extra-img {
-  height: 75px;
-  float: left;
-}
-
-.extra-title {
-  float: left;
-  padding: 0 0 0 30px;
-  font-size: 18px;
-}
-
 @media (max-aspect-ratio: 1/1) {
+  .header {
+    height: auto;
+    padding: 50px 0 50px 0;
+    opacity: 0;
+  }
+
   .header-name {
     margin: 0;
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .header-desc {
@@ -147,32 +138,23 @@ body, html {
   }
 
   .work-entry {
-    margin: 100px 0 50px 0;
+    margin: 50px 0 50px 0;
   }
 
-  .extra {
-    padding: 0 0 80px 0;
+  .work-title {
+    padding: 0 0 0 0;
+    font-size: 24px;
   }
   
-  .extra-entry {
-    padding: 40px 0 80px 0;
+  .work-desc {
+    padding: 0 0 0 0;
+    font-size: 16px;
   }
-  
-  .extra-img {
-    height: 60px;
-    float: left;
-  }
-  
-  .extra-title {
-    float: left;
-    padding: 0 0 0 30px;
-    font-size: 14px;
-  }
+
 }
 
 .footer {
   padding: 0 0 70px 0;
   font-size: 24px;
   text-align: center;
-  color: var(--color-dark-gray);
 }

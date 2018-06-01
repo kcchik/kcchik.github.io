@@ -1,8 +1,12 @@
 $(function() {
 
   $(".header").animate({
-    opacity: 1,
+    opacity: 1
   }, 1500);
+  
+  $(".bio").animate({
+    marginTop: '-=400px'
+  }, 800);
 
   $("#resume").on({
     mouseenter: function() {
