@@ -1,8 +1,4 @@
 $(function() {
-
-  $(".header").animate({
-    opacity: 1
-  }, 1500);
   
   $(".bio").animate({
     marginTop: '-=400px'
@@ -12,12 +8,12 @@ $(function() {
     mouseenter: function() {
       $(".popup").animate({
         bottom: "0"
-      }, 150);
+      }, 350);
     },
     mouseleave: function() {
       $(".popup").animate({
         bottom: "-200px"
-      }, 150);
+      }, 350);
     }
   });
 

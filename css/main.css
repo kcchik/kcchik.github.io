@@ -46,7 +46,6 @@ body, html {
 .header {
   height: 600px;
   padding: 200px 0 0 0;
-  opacity: 0;
 }
 
 .header-name {
