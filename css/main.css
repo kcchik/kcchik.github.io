@@ -111,8 +111,8 @@ body, html {
 @media (max-aspect-ratio: 1/1) {
   .header {
     height: auto;
+    margin: 0 0 0 -1000px;
     padding: 50px 0 50px 0;
-    opacity: 0;
   }
 
   .header-name {
