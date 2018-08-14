@@ -108,11 +108,16 @@ body, html {
   border-radius: 25px;
 }
 
+.status-img {
+  width: 12px;
+  margin: 0 10px 3px 15px;
+}
+
 .status {
+  margin: 15px 0 0 0;
   width: 100%;
-  box-shadow: 0 0 20px var(--color-light-gray);
-  box-shadow: 0 4px 8px 0 var(--color-light-gray), 0 6px 20px 0 var(--color-light-gray);
   border-radius: 25px;
+  font-size: 14px;
 }
 
 @media (max-aspect-ratio: 1/1) {
