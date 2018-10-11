@@ -1,3 +1,3 @@
 # kevinchik.me
 
-http://www.kevinchik.me/
+www.kevinchik.me
