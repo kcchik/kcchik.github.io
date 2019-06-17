@@ -1,0 +1,47 @@
+---
+---
+
+::selection
+  background: #fd8
+
+body
+  margin: 80px auto
+  padding: 30px
+  max-width: 500px
+  background-color: #f9f9f9
+  font-family: monospace
+  font-size: 12px
+
+a
+  text-decoration: none
+  color: #49f
+  border-bottom: 1px solid
+  :hover
+    color: #9cf
+
+summary
+  -webkit-user-select: none   // Safari
+  -moz-user-select: none      // Firefox
+  -ms-user-select: none       // Internet Explorer
+  user-select: none           // Chrome and Opera
+  &:focus
+    outline: none
+  &::-webkit-details-marker
+    display: none
+  &:before
+    content: "\\ "
+
+details
+  margin-bottom: 1em
+  &[open] summary:before
+    content: "/ "
+  p
+    margin-left: 2em
+  table
+    margin-left: 2em
+    width: 100%
+    font-size: 12px
+    td
+      padding-top: 1em
+    .date
+      text-align: right
