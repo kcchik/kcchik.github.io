@@ -1,12 +1,10 @@
 ---
 ---
 
-::selection
-  background: #fd8
-
 body
   margin: 80px auto
   padding: 30px
+  padding-right: 60px
   max-width: 500px
   background-color: #f9f9f9
   font-family: courier, monospace
@@ -20,31 +18,22 @@ a
   &:hover
     color: #9cf
 
-summary
-  cursor: pointer
-  &:focus
-    outline: none
-  &::-webkit-details-marker
-    display: none
-  &:before
-    content: "\\ "
+.header
+  margin-top: 3em
+  font-size: 12px
+  font-weight: bold
 
-details
-  margin-bottom: 1em
-  &[open] summary:before
-    content: "/ "
-  p
-    margin-left: 2em
-  table
-    margin-left: 2em
-    padding-right: 2em
-    width: 100%
-    font-size: 12px
-    td
-      padding-top: 1em
-      line-height: 1.5em
-    .alt
-      vertical-align: top
-      text-align: right
-      color: #888
-      padding-left: 1em
+.content
+  margin-left: 2em
+
+table
+  padding-right: 2em
+  width: 100%
+  font-size: 12px
+  line-height: 2em
+
+  .alt
+    padding-left: 1em
+    vertical-align: top
+    text-align: right
+    color: #bbb
