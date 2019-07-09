@@ -18,6 +18,15 @@ a
   &:hover
     color: #9cf
 
+summary
+  cursor: pointer
+  &:focus
+    outline: none
+  &::-webkit-details-marker
+    display: none
+  &:before
+    content: "\\ "
+
 .header
   margin-top: 3em
   font-size: 14px
@@ -26,15 +35,25 @@ a
 .content
   margin-left: 2em
 
-table
-  padding-right: 2em
-  width: 100%
-  font-size: 12px
-  font-size: 14px
-  line-height: 2em
-
-  .alt
-    padding-left: 1em
-    vertical-align: top
-    text-align: right
-    color: #bbb
+details
+  margin-bottom: 1em
+  summary
+    font-weight: bold
+  &[open] summary:before
+    content: "/ "
+  p
+    margin-left: 2em
+    font-size: 12px
+  table
+    margin-left: 2em
+    padding-right: 2em
+    width: 100%
+    font-size: 12px
+    td
+      padding-top: 1em
+      line-height: 1.5em
+    .alt
+      vertical-align: top
+      text-align: right
+      color: #888
+      padding-left: 1em
