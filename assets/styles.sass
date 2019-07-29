@@ -21,6 +21,8 @@ a
 
 summary
   cursor: pointer
+  font-weight: bold
+  font-size: 12px
   &:focus
     outline: none
   &::-webkit-details-marker
@@ -28,18 +30,11 @@ summary
   &:before
     content: "\\ "
 
-.header
-  margin-top: 3em
-  font-size: 14px
-  font-weight: bold
-
 .content
   margin-left: 2em
 
 details
-  margin-bottom: 1em
-  summary
-    font-weight: bold
+  margin-bottom: 2em
   &[open] summary:before
     content: "/ "
   p
@@ -56,5 +51,5 @@ details
     .alt
       vertical-align: top
       text-align: right
-      color: #888
+      color: #bbb
       padding-left: 1em
