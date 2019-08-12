@@ -1,0 +1,79 @@
+body {
+  margin: 80px auto;
+  padding: 30px;
+  padding-right: 60px;
+  max-width: 500px;
+  background-color: #f9f9f9;
+  font-family: courier, monospace;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #49f;
+  border-bottom: 1px solid;
+}
+
+a:hover {
+  color: #9cf;
+}
+
+.links {
+  margin-bottom: 2em;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+summary:focus {
+    outline: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:before {
+  content: "\\ ";
+}
+
+.content{
+  margin-left: 2em;
+}
+
+details {
+  margin-bottom: 2em;
+}
+
+details[open] summary:before {
+  content: "/ ";
+}
+
+details p {
+  margin-left: 2em;
+  font-size: 12px;
+}
+
+table {
+  margin-left: 2em;
+  padding-right: 2em;
+  width: 100%;
+  font-size: 12px;
+}
+
+td {
+  padding-top: 1em;
+  line-height: 1.5em;
+}
+
+.alt {
+  vertical-align: top;
+  text-align: right;
+  color: #bbb;
+  padding-left: 1em;
+}
