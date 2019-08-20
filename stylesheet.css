@@ -7,6 +7,10 @@ body {
   line-height: 1.5em;
 }
 
+h1 {
+  margin-bottom: 10px;
+}
+
 a {
   text-decoration: none;
   color: #49f;
@@ -33,27 +37,13 @@ details[open] summary:before {
 }
 
 details {
-  margin-bottom: 2em;
+  margin-bottom: 24px;
 }
 details p {
-  margin-left: 2em;
+  margin-left: 24px;
 }
 
-table {
-  width: 100%;
-  margin-left: 2em;
-  padding-right: 2em;
-  font-size: 14px;
-}
-
-td {
-  padding-top: 1em;
-  line-height: 1.5em;
-}
-
-.date {
-  vertical-align: top;
-  text-align: right;
-  color: #bbb;
-  padding-left: 1em;
+.small {
+  margin-top: -12px;
+  font-size: 11px;
 }
