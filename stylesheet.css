@@ -29,6 +29,9 @@ summary:focus {
 summary::-webkit-details-marker {
   display: none;
 }
+summary::marker {
+  display: none;
+}
 summary:before {
   content: "\\ ";
 }
