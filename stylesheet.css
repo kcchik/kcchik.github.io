@@ -3,7 +3,7 @@ body {
   margin: 80px auto;
   padding: 30px;
   background: #f9f9f9;
-  font: 14px "Courier New";
+  font: 16px "Courier New";
   line-height: 1.5em;
 }
 
@@ -16,7 +16,7 @@ a {
   color: #49f;
 }
 a:hover {
-  color: #9cf;
+  border-bottom: 1px solid;
 }
 
 summary {
@@ -48,5 +48,5 @@ details p {
 
 .small {
   margin-top: -12px;
-  font-size: 11px;
+  font-size: 13px;
 }
