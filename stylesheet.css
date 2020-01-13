@@ -3,12 +3,14 @@ body {
   margin: 80px auto;
   padding: 30px;
   background: #f9f9f9;
-  font: 16px "Courier New";
+  font: 16px "Rubik", "Courier New";
   line-height: 1.5em;
 }
 
 h1 {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 a {
