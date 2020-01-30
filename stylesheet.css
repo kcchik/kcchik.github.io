@@ -7,6 +7,10 @@ body {
   line-height: 1.5em;
 }
 
+div {
+  margin-bottom: 45px;
+}
+
 h1 {
   margin-bottom: 10px;
 }
@@ -46,7 +50,7 @@ details p {
   margin-left: 24px;
 }
 
-.small {
+.sub {
   margin-top: -12px;
   font-size: 13px;
 }
