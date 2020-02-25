@@ -1,7 +1,7 @@
 body {
   max-width: 500px;
-  margin: 80px auto;
-  padding: 30px;
+  margin: 0 auto;
+  padding: 120px 30px;
   background: #f9f9f9;
   font: 16px "Courier New";
   line-height: 1.5em;
@@ -54,3 +54,4 @@ details p {
   margin-top: -12px;
   font-size: 13px;
 }
+
