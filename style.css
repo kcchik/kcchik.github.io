@@ -1,0 +1,24 @@
+body {
+  max-width: 600px;
+  padding: 75px;
+  background: #f9f9f9;
+  color: #333;
+  font: 16px monospace;
+  line-height: 1.5em;
+}
+
+div {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font: 700 36px 'Courier New', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #007aff;
+}
+a:hover {
+  text-decoration: underline;
+}
